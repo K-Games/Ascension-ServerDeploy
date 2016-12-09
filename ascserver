@@ -2,4 +2,4 @@
 PATH_TO_JRE=jre/bin/java
 PATH_TO_JAR=AscensionServer.jar
 PATH_TO_SERVER_DIRECTORY=/home/ec2-user/Ascension-ServerDeploy
-cd $PATH_TO_SERVER_DIRECTORY; nohup $PATH_TO_JRE -jar $PATH_TO_JAR 2>> /dev/null >> /dev/null &
+cd $PATH_TO_SERVER_DIRECTORY; nohup $PATH_TO_JRE -jar $PATH_TO_JAR -server -noclient 2>> /dev/null >> /dev/null &
