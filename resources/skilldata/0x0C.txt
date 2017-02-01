@@ -1,19 +1,24 @@
 [name]
-Fortify
+Adrenaline
 [desc]
-1
-Reduce damage taken for 5 seconds.
+2
+Increase your movement speed and reduce
+damage taken for 5 seconds.
 [reqweapon]
 -1
 [maxcooldown]
 12000
 [basevalue]
-0.01
+0.05
 [multvalue]
-0.005
+0.007
 [passive]
 false
 [buffduration]
 5000
 [heal]
 0.075
+[movespeedbase]
+0.60
+[movespeedmult]
+0.005
